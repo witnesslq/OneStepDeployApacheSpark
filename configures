@@ -1,0 +1,7 @@
+master:192.168.148.147:123456:*
+slave1:192.168.148.148:123456
+slave2:192.168.148.149:123456
+
+spark-bin-path:~/Desktop/spark-1.4.0-bin-2.6.0.tgz
+java-home:/usr/lib/jvm/jdk1.7.0_79
+set-ssh-passwd:True

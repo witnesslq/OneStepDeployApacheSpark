@@ -1,4 +1,7 @@
-#Apache Spark一键部署脚本
+#Apache Spark standalone一键部署脚本
+###适用于
+- 快速部署standalone模式进行实验
+- 快速部署来运行spark程序
 
 ###前提
 - 有一套Linux集群

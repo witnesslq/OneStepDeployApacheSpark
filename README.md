@@ -13,8 +13,8 @@
 ###使用方法
 ####1、先编辑configures文件
 以一个实例介绍，很简单的。。。
-> 目前我有三个节点：master,slave1,slave2,我希望选取master作为主节点，master和slave1和slave2三个节点都运行worker；
-> 那么在configures写入：
+目前我有三个节点：master,slave1,slave2,我希望选取master作为主节点，master和slave1和slave2三个节点都运行worker；
+那么在configures写入：
 >
 >  ```
 > master:192.168.148.147:123456:*#带星号表示是主节点

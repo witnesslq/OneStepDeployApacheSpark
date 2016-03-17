@@ -23,7 +23,8 @@ slave2:192.168.148.149:123456
 #一个空行隔开
 spark-bin-path:~/Desktop/spark-1.4.0-bin-2.6.0.tgz#设置spark的项目包在本地的位置
 java-home:/usr/lib/jvm/jdk1.7.0_79#设置每个节点的JAVA_HOME
-set-ssh-passwd:True #表示需要由本脚本来设置ssh无密码登陆，否则不需要这行```
+set-ssh-passwd:True #表示需要由本脚本来设置ssh无密码登陆，否则不需要这行
+```
 
 ####2、进行一键盘部署
 `$./oneStepDeploySpark.py user`<br/>

@@ -28,8 +28,10 @@ set-ssh-passwd:True #表示需要由本脚本来设置ssh无密码登陆，否�
 ```
 
 #### 2、进行一键盘部署
+
 `$./oneStepDeploySpark.py user`<br/>
 输入节点们的用户名，完成一键部署<br/>
+
 > Note：如果没有事先设置ssh无密码登陆的话，期间有一些交互需要输入空格、ssh登陆的user密码。
 
 #### 3、测试
